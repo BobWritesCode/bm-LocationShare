@@ -1,4 +1,4 @@
-# [Bob's Mods] bm-shareLocation
+# [Bob's Mods] Location Share
 
 An easy to implement script to allow players to easily navigate to points of interest.
 
@@ -19,7 +19,7 @@ An easy to implement script to allow players to easily navigate to points of int
 
 ## License
 
-    Bob's Mods - Share Location
+    Bob's Mods - Location Share
     Copyright (C) 2024
 
     This program is free software: you can redistribute it and/or modify

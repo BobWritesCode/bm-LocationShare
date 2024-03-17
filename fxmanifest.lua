@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-description 'BM-ShareLocation'
+description 'BM-LocationShare'
 version '1.000'
-repository 'https://github.com/BobWritesCode/bm-sharelocation'
+repository 'https://github.com/BobWritesCode/bm-locationshare'
 
 shared_scripts {
   'shared/config.lua',

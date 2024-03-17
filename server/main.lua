@@ -47,4 +47,4 @@ QBCore.Commands.Add(Config.Commands.navClear, "Clear POV marker and route", {}, 
   TriggerClientEvent('bm-locationShare:client:clearGPS', source)
 end)
 
-print("^4[Log] ^3bm-shareLocation ^2started^7")
+print("^4[Log] ^3bm-locationShare ^2started^7")

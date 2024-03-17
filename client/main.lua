@@ -10,4 +10,4 @@ RegisterNetEvent('bm-locationShare:client:clearGPS', function()
   ClearGPS()
 end)
 
-print("^4[Log] ^3bm-shareLocation ^2started^7")
+print("^4[Log] ^3bm-locationShare ^2started^7")
