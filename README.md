@@ -6,9 +6,9 @@ An easy to implement script to allow players to easily navigate to points of int
 
 - Predetermined POIs can be set up in the config.
 - Players can set their own POIs based on their current location.
-  - *Example:* `/navset farm`.
+  - *Example:* `/navset location`.
 - Players can then share the POI to others.
-  - *Example:* `/navto farm`.
+  - *Example:* `/navto location`.
 - Players can clear route using `/navclear`.
 - When a player gets near the POI the route will automatically clear.
 - Command names can be easily changed in config.
@@ -16,6 +16,27 @@ An easy to implement script to allow players to easily navigate to points of int
 ## Dependencies
 
 - QB-Core
+
+## Worth knowing
+
+- Locations set up by the players (locations not in the config) are reset/removed when the script/server is restarted.
+
+## Usage instructions
+
+Step 1: At your chosen location use the `/navset` command.
+![Step 1](https://i.imgur.com/AoBnrct.png)
+
+Step 2 (a): Any player can then use the  `/navto` command to set that location for their GPS.
+![Step 2 (a)](https://i.imgur.com/Tsw8BBn.png)
+
+Step 2 (b): The location is set up in the GPS.
+![Step 2 (b)](https://i.imgur.com/nS2sDI1.png)
+
+Step 3: When player arrives at location they get a notification and the GPS is automatically removed from their GPS.
+![Step 3](https://i.imgur.com/mklvj7g.png)
+
+Other: Use `/navclear` to manually remove the location from the GPS.
+![Other](https://i.imgur.com/NEhpufq.png)
 
 ## License
 
