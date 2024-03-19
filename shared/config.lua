@@ -15,7 +15,7 @@ Config = {
 
   -- Create predetermined POIs
   Locations = {
-    {"PD", vector3(408.55, -980.24, 28.84)},
-    {"EMS", vector3(292.86, -583.17, 42.76)}
+    { "PD",  vector3(408.55, -980.24, 28.84) },
+    { "EMS", vector3(292.86, -583.17, 42.76) }
   }
 }
